@@ -13,6 +13,8 @@
 		D48BBAF2230ACC45000E8B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48BBAF1230ACC45000E8B33 /* Assets.xcassets */; };
 		D48BBAF5230ACC45000E8B33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48BBAF3230ACC45000E8B33 /* LaunchScreen.storyboard */; };
 		D48BBAFF230AD476000E8B33 /* cardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48BBAFE230AD476000E8B33 /* cardModel.swift */; };
+		D4FE9244230F3F7100F8AFB0 /* card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FE9243230F3F7100F8AFB0 /* card.swift */; };
+		D4FE9246230F445C00F8AFB0 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FE9245230F445C00F8AFB0 /* CardCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D48BBAF4230ACC45000E8B33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D48BBAF6230ACC45000E8B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D48BBAFE230AD476000E8B33 /* cardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardModel.swift; sourceTree = "<group>"; };
+		D4FE9243230F3F7100F8AFB0 /* card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = card.swift; sourceTree = "<group>"; };
+		D4FE9245230F445C00F8AFB0 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				D48BBAEA230ACC44000E8B33 /* AppDelegate.swift */,
 				D48BBAEC230ACC44000E8B33 /* ViewController.swift */,
+				D48BBAFE230AD476000E8B33 /* cardModel.swift */,
+				D4FE9243230F3F7100F8AFB0 /* card.swift */,
+				D4FE9245230F445C00F8AFB0 /* CardCollectionViewCell.swift */,
 				D48BBAEE230ACC44000E8B33 /* Main.storyboard */,
 				D48BBAF1230ACC45000E8B33 /* Assets.xcassets */,
 				D48BBAF3230ACC45000E8B33 /* LaunchScreen.storyboard */,
 				D48BBAF6230ACC45000E8B33 /* Info.plist */,
-				D48BBAFE230AD476000E8B33 /* cardModel.swift */,
 			);
 			path = matchingCards;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				D48BBAED230ACC44000E8B33 /* ViewController.swift in Sources */,
 				D48BBAEB230ACC44000E8B33 /* AppDelegate.swift in Sources */,
 				D48BBAFF230AD476000E8B33 /* cardModel.swift in Sources */,
+				D4FE9246230F445C00F8AFB0 /* CardCollectionViewCell.swift in Sources */,
+				D4FE9244230F3F7100F8AFB0 /* card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

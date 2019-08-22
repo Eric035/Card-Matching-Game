@@ -31,7 +31,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CardCell" id="Bgl-c4-gVe">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CardCell" id="Bgl-c4-gVe" customClass="CardCollectionViewCell" customModule="matchingCards" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="158" height="224"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -56,6 +56,10 @@
                                             <constraint firstItem="6bg-gC-Y7R" firstAttribute="top" secondItem="Bgl-c4-gVe" secondAttribute="top" id="wXN-xG-ZaL"/>
                                             <constraint firstAttribute="bottom" secondItem="6bg-gC-Y7R" secondAttribute="bottom" id="zYM-fJ-3Ei"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="backImageView" destination="sTQ-aD-xmg" id="sai-iA-5l9"/>
+                                            <outlet property="frontImageView" destination="6bg-gC-Y7R" id="6CY-n8-0Td"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
